@@ -1,6 +1,5 @@
 === Content Rendering Performance ===
-Contributors:      The WordPress Contributors
-Tags:              block
+Contributors:      bulledev
 Tested up to:      6.6
 Stable tag:        0.1.1
 License:           GPL-2.0-or-later

@@ -1,6 +1,6 @@
 {
 	"name": "content-visibility-auto",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Utility plugin allowing to control the content-visibility CSS property improving long page performance.",
 	"author": "The WordPress Contributors",
 	"license": "GPL-2.0-or-later",

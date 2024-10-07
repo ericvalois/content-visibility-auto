@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Content Visibility Auto
- * Description:       Utility plugin allowing to control the content-visibility CSS property improving long page performance.
+ * Plugin Name:       Content Rendering Performance
+ * Description:       This utility plugin allows the browser to delay group block rendering, significantly speeding up the initial page load.
  * Requires at least: 6.6
  * Requires PHP:      7.2
  * Version:           0.1.0

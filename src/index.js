@@ -66,9 +66,12 @@ const contentVisibilityAutoControl = createHigherOrderComponent((BlockEdit) => {
 				<BlockEdit {...props} />
 				{isSelected && (
 					<InspectorControls>
-						<PanelBody title={__("Rendering performance")} initialOpen={false}>
+						<PanelBody
+							title={__("Content Rendering Performance")}
+							initialOpen={false}
+						>
 							<ToggleControl
-								label={__("Improve content rendering")}
+								label={__("Delay content rendering")}
 								checked={contentVisibilityAuto}
 								onChange={(toggle) =>
 									setAttributes({
@@ -80,7 +83,7 @@ const contentVisibilityAutoControl = createHigherOrderComponent((BlockEdit) => {
 
 							<p>
 								{__(
-									"The content-visibility CSS property enables the user agent to skip an element's rendering work until it is needed.",
+									"According to Google, you can significantly speed up the initial page load by skipping rendering on large portions of off-screen content.",
 								)}{" "}
 								<ExternalLink href="https://web.dev/articles/content-visibility">
 									{__("Learn more on Web.dev")}

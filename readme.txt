@@ -1,15 +1,15 @@
-=== Sections Content Visibility ===
+=== Content Rendering Performance ===
 Contributors:      The WordPress Contributors
 Tags:              block
 Tested up to:      6.6
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
-This utility plugin lets you turn on the content-visibility CSS property for group blocks.
+This utility plugin lets you add the content-visibility CSS property on group blocks.
 
 == Description ==
 
-This utility plugin lets you turn on the `content-visibility` CSS property for group blocks. That property allows the browser to delay an element's rendering, including layout and painting until needed.
+This WordPress utility plugin lets you add the `content-visibility` CSS property on group blocks. That property allows the browser to delay an element's rendering, including layout and painting until needed.
 
 According to Google, you can significantly speed up the initial page load by skipping rendering on large portions of off-screen content.
 
